@@ -7,6 +7,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <style>
+    .pub-card {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      padding: 15px 20px;
+      margin: 10px 0;
+      border-radius: 8px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+      transition: box-shadow 0.2s ease, transform 0.2s ease;
+    }
+    .pub-card:hover {
+      box-shadow: 0 4px 14px rgba(0,0,0,0.22);
+      transform: translateY(-1px);
+    }
+    .pub-thumb {
+      flex: 0 0 25%;
+      max-width: 180px;
+    }
+    .pub-thumb img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    .pub-info {
+      flex: 1;
+      min-width: 0;
+    }
+  </style>
 </head>
 
 <body>
@@ -48,15 +77,14 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
 			<tr>
-     
-            <td style="padding:15px 20px 0 20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <img src='images/AMAI2026.png' width="180">
-              </div>  
-            </td>
-            <td style="padding:15px 20px 0 20px;width:75%;vertical-align:top">
-              <a><papertitle>Towards Practical Algorithm Selection in Unsupervised Domain Adaptation in Medical Imaging</papertitle></a>
-              <br>
+            <td style="padding:0;width:100%;">
+              <div class="pub-card">
+                <div class="pub-thumb">
+                  <img src='images/AMAI2026.png'>
+                </div>
+                <div class="pub-info">
+                  <a><papertitle>Towards Practical Algorithm Selection in Unsupervised Domain Adaptation in Medical Imaging</papertitle></a>
+                  <br>
 		<strong>Yiheng Xiong</strong>,
 		<a href="https://scholar.google.de/citations?user=RotwTNsAAAAJ&hl=en">Luisa Gallée</a>,
 		<a href="https://viscom.uni-ulm.de/members/daniel-wolf/">Daniel Santak Wolf</a>,
@@ -69,19 +97,19 @@
               <a href="https://arxiv.org/abs/2607.28125" target="_blank">Arxiv<a> &nbsp/&nbsp
               <a href="https://github.com/xiongyiheng/Complete-Unsupervised-Domain-Adaptation-Pipeline" target="_blank">Code<a> &nbsp/&nbsp
               </p>
+                </div>
+              </div>
             </td>
-
           </tr> 
 <tr>
-     
-            <td style="padding:15px 20px 0 20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <img src='images/FunnyNodules.png' width="180">
-              </div>  
-            </td>
-            <td style="padding:15px 20px 0 20px;width:75%;vertical-align:top">
-              <a><papertitle>FunnyNodules: A Customizable Medical Dataset Tailored for Evaluating Explainable AI</papertitle></a>
-              <br>
+            <td style="padding:0;width:100%;">
+              <div class="pub-card">
+                <div class="pub-thumb">
+                  <img src='images/FunnyNodules.png'>
+                </div>
+                <div class="pub-info">
+                  <a><papertitle>FunnyNodules: A Customizable Medical Dataset Tailored for Evaluating Explainable AI</papertitle></a>
+                  <br>
 		<a href="https://scholar.google.de/citations?user=RotwTNsAAAAJ&hl=en">Luisa Gallée</a>,
 		<strong>Yiheng Xiong</strong>,
 		<a href="https://www.uniklinik-ulm.de/radiologie-diagnostische-und-interventionelle/team/prof-dr-m-beer.html">Meinrad Beer</a>,
@@ -94,22 +122,22 @@
               <a href="https://github.com/XRad-Ulm/FunnyNodules" target="_blank">Code<a> &nbsp/&nbsp
 			  <a href="https://raw.githubusercontent.com/mlresearch/v315/main/assets/gallee26a/gallee26a.pdf" target="_blank">Paper<a>
               </p>
+                </div>
+              </div>
             </td>
-
           </tr> 
 
 			
 		 
 	          <tr>
-     
-            <td style="padding:15px 20px 0 20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <img src='images/pt43d.png' width="180">
-              </div>  
-            </td>
-            <td style="padding:15px 20px 0 20px;width:75%;vertical-align:top">
-              <a><papertitle>PT43D: A Probabilistic Transformer for Generating 3D Shapes from Single Highly-Ambiguous RGB Images</papertitle></a>
-              <br>
+            <td style="padding:0;width:100%;">
+              <div class="pub-card">
+                <div class="pub-thumb">
+                  <img src='images/pt43d.png'>
+                </div>
+                <div class="pub-info">
+                  <a><papertitle>PT43D: A Probabilistic Transformer for Generating 3D Shapes from Single Highly-Ambiguous RGB Images</papertitle></a>
+                  <br>
 	      <strong>Yiheng Xiong</strong>,
 		<a href="https://www.3dunderstanding.org/index.html">Angela Dai</a>
 		    <br>
@@ -121,19 +149,19 @@
               <a href="https://youtu.be/b_-U7dXalAs?si=gQ0y2NsPVUf4D8KD" target="_blank">Video<a> &nbsp/&nbsp
 	      <a href="https://bmva-archive.org.uk/bmvc/2024/papers/Paper_77/paper.pdf">Paper<a>
               </p>
+                </div>
+              </div>
             </td>
-
           </tr> 
 		           <tr>
-     
-            <td style="padding:15px 20px 0 20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <img src='images/RadGraphFormer.png' width="180">
-              </div>  
-            </td>
-            <td style="padding:15px 20px 0 20px;width:75%;vertical-align:top">
-              <a><papertitle>Prior-RadGraphFormer: A Prior-Knowledge-Enhanced Transformer for Generating Radiology Graphs from X-Rays</papertitle></a>
-              <br>
+            <td style="padding:0;width:100%;">
+              <div class="pub-card">
+                <div class="pub-thumb">
+                  <img src='images/RadGraphFormer.png'>
+                </div>
+                <div class="pub-info">
+                  <a><papertitle>Prior-RadGraphFormer: A Prior-Knowledge-Enhanced Transformer for Generating Radiology Graphs from X-Rays</papertitle></a>
+                  <br>
 	      <strong>Yiheng Xiong*</strong>,
 		<a href="https://tumvink.github.io/">Jingsong Liu*</a>,
 		<a href="https://scholar.google.com/citations?user=ZQ1CQkQAAAAJ&hl=en">Kamilia Zaripova*</a>,
@@ -148,8 +176,9 @@
               <a href="https://github.com/xiongyiheng/Prior-RadGraphFormer" target="_blank">Code<a> &nbsp/&nbsp
               <a href="https://link.springer.com/chapter/10.1007/978-3-031-55088-1_5" target="_blank">Paper<a>
               </p>
+                </div>
+              </div>
             </td>
-
           </tr> 
 		
           
